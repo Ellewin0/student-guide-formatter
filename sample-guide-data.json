@@ -1,0 +1,55 @@
+{
+  "title": "Using Dictate in Microsoft Word",
+  "subtitle": "Student Guide",
+  "audience": "Students",
+  "purpose": "Help students use Microsoft Word Dictate to speak ideas into a document.",
+  "introduction": {
+    "heading": "Introduction to Microsoft Word Dictate",
+    "whatIsIt": "Dictate is a Microsoft Word feature that lets you speak your ideas out loud and have them typed into a document.",
+    "whyUseIt": "It can help you get ideas down quickly, reduce typing fatigue, and focus on your thoughts before editing your work.",
+    "imagePlaceholder": "Microsoft Word Home tab with the Dictate button highlighted",
+    "imageDescription": "Microsoft Word open on a blank document with the Dictate microphone button highlighted on the Home tab."
+  },
+  "gettingStarted": {
+    "whatYouNeed": [
+      "A device with Microsoft Word installed or available online",
+      "A working microphone",
+      "Internet access",
+      "A quiet space where possible"
+    ],
+    "beforeYouBegin": "Check that your microphone is connected and working. Close other apps that may be using your microphone.",
+    "tip": "Using headphones with a microphone can improve accuracy and reduce background noise."
+  },
+  "steps": [
+    {
+      "number": "1",
+      "title": "Open Microsoft Word",
+      "instructions": ["Open Microsoft Word on your device."],
+      "tip": "Have your document topic or notes nearby before you start dictating.",
+      "imagePlaceholder": "Microsoft Word start screen",
+      "imageDescription": "Microsoft Word start screen showing recent documents and the option to open a blank document."
+    },
+    {
+      "number": "2",
+      "title": "Open a blank document",
+      "instructions": ["Select Blank document from the start screen."],
+      "imagePlaceholder": "Blank document option",
+      "imageDescription": "The Microsoft Word start screen with the Blank document option highlighted."
+    }
+  ],
+  "helpfulTips": [
+    { "tip": "Speak naturally", "whyItHelps": "Helps Dictate recognise your words more accurately." },
+    { "tip": "Use a quiet space", "whyItHelps": "Reduces background noise and transcription errors." }
+  ],
+  "troubleshooting": [
+    { "issue": "Dictate button is unavailable", "whatToTry": "Check your internet connection and confirm that Word is up to date." },
+    { "issue": "No text appears", "whatToTry": "Check microphone access and make sure the microphone is selected." }
+  ],
+  "faqs": [
+    { "question": "Do I need to type at all?", "answer": "You can use Dictate for drafting, but you should still review and edit your work." }
+  ],
+  "whereToGetHelp": [
+    "[Insert confirmed technology support contact]",
+    "[Insert confirmed accessibility support contact]"
+  ]
+}
