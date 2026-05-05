@@ -1,0 +1,170 @@
+{
+  "title": "Using Dictate in Microsoft Word",
+  "subtitle": "Student Guide",
+  "audience": "Students",
+  "purpose": "Help students use Microsoft Word Dictate to speak their ideas into a Word document.",
+  "introduction": {
+    "heading": "Introduction to Microsoft Word Dictate",
+    "whatIsIt": "Dictate is a feature in Microsoft Word that lets you speak your ideas out loud and have them typed into your document.",
+    "whyUseIt": "Dictate can help you get ideas down quickly, reduce typing fatigue, and focus on what you want to say before editing your work.",
+    "imagePlaceholder": "Microsoft Word Home tab with the Dictate button highlighted",
+    "imageDescription": "Microsoft Word open on a blank document with the Dictate microphone button highlighted on the Home tab."
+  },
+  "gettingStarted": {
+    "whatYouNeed": [
+      "A device with Microsoft Word installed",
+      "A working microphone, either built-in or external",
+      "A quiet space where possible",
+      "Internet access, if required by your version of Microsoft Word"
+    ],
+    "beforeYouBegin": "Check that your microphone is connected and working. Close other apps that may be using your microphone.",
+    "tip": "Using headphones with a microphone can improve accuracy and reduce background noise."
+  },
+  "steps": [
+    {
+      "number": "1",
+      "title": "Open Microsoft Word",
+      "instructions": [
+        "Open Microsoft Word on your device.",
+        "Wait for the start screen or your recent documents to appear."
+      ],
+      "tip": "Open Word before you start speaking so you can check that Dictate is available.",
+      "imagePlaceholder": "Microsoft Word start screen",
+      "imageDescription": "Microsoft Word start screen showing the option to create a blank document."
+    },
+    {
+      "number": "2",
+      "title": "Open a blank document",
+      "instructions": [
+        "Select Blank document from the start screen.",
+        "Click into the document where you want your text to appear."
+      ],
+      "imagePlaceholder": "Blank Word document",
+      "imageDescription": "A blank Microsoft Word document with the cursor placed on the page."
+    },
+    {
+      "number": "3",
+      "title": "Select Dictate from the Home tab",
+      "instructions": [
+        "Select the Home tab.",
+        "Select Dictate, shown as a microphone icon."
+      ],
+      "imagePlaceholder": "Dictate button on the Home tab",
+      "imageDescription": "Microsoft Word Home tab with the Dictate microphone button highlighted."
+    },
+    {
+      "number": "4",
+      "title": "Allow microphone access",
+      "instructions": [
+        "If prompted, allow Microsoft Word to access your microphone.",
+        "Check that the Dictate microphone is switched on."
+      ],
+      "tip": "If you accidentally block microphone access, check your device privacy or microphone settings.",
+      "imagePlaceholder": "Microphone access prompt",
+      "imageDescription": "A microphone permission prompt asking whether Microsoft Word can access the microphone."
+    },
+    {
+      "number": "5",
+      "title": "Start speaking clearly",
+      "instructions": [
+        "Speak naturally and clearly.",
+        "Watch as your words appear as text in the document.",
+        "Pause briefly between ideas."
+      ],
+      "imagePlaceholder": "Dictated text appearing in Word",
+      "imageDescription": "A Word document showing spoken words appearing as typed text while Dictate is active."
+    },
+    {
+      "number": "6",
+      "title": "Say punctuation aloud",
+      "instructions": [
+        "Say punctuation such as comma, full stop or new paragraph when needed.",
+        "Use short sections so the text is easier to review."
+      ],
+      "tip": "You can edit the wording after dictating, so focus first on getting your ideas onto the page.",
+      "imagePlaceholder": "Example dictated sentence with punctuation",
+      "imageDescription": "A Word document showing a dictated paragraph with punctuation added."
+    },
+    {
+      "number": "7",
+      "title": "Stop Dictate",
+      "instructions": [
+        "Select the Dictate button again to stop recording.",
+        "Check that the microphone icon is no longer active."
+      ],
+      "imagePlaceholder": "Dictate button switched off",
+      "imageDescription": "The Microsoft Word Dictate button shown in its inactive state."
+    },
+    {
+      "number": "8",
+      "title": "Review and save your document",
+      "instructions": [
+        "Read through the dictated text.",
+        "Correct any words, punctuation or spacing that need editing.",
+        "Select File, then Save As, and choose where to save the document."
+      ],
+      "tip": "Dictate is useful for drafting, but it is still important to review your work before submitting or sharing it.",
+      "imagePlaceholder": "Save As screen in Microsoft Word",
+      "imageDescription": "Microsoft Word Save As screen showing options for saving the document."
+    }
+  ],
+  "helpfulTips": [
+    {
+      "tip": "Speak naturally",
+      "whyItHelps": "Helps Dictate recognise your words more accurately."
+    },
+    {
+      "tip": "Pause between sentences",
+      "whyItHelps": "Makes your ideas easier to separate and review."
+    },
+    {
+      "tip": "Use a quiet space",
+      "whyItHelps": "Reduces background noise and improves accuracy."
+    },
+    {
+      "tip": "Review your text",
+      "whyItHelps": "Helps you catch any words or punctuation that Dictate has misheard."
+    }
+  ],
+  "troubleshooting": [
+    {
+      "issue": "Dictate button is unavailable",
+      "whatToTry": "Check that Microsoft Word is open, you are signed in if required, and your internet connection is working."
+    },
+    {
+      "issue": "No text appears",
+      "whatToTry": "Check microphone access and make sure the Dictate microphone is switched on."
+    },
+    {
+      "issue": "Words are incorrect",
+      "whatToTry": "Speak more slowly, reduce background noise, and review the text after dictating."
+    },
+    {
+      "issue": "Dictate stops unexpectedly",
+      "whatToTry": "Turn Dictate off and on again. If the issue continues, restart Word or check your microphone settings."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to type at all?",
+      "answer": "You can use Dictate for much of your drafting, but you should still review and edit your work."
+    },
+    {
+      "question": "Can I use Dictate for assignments?",
+      "answer": "Yes. Dictate can be useful for drafting ideas, notes and assignment paragraphs."
+    },
+    {
+      "question": "Does Dictate work with different accents?",
+      "answer": "Yes, although accuracy can vary. Speaking clearly and reviewing your text can help."
+    },
+    {
+      "question": "Can I use Dictate for long documents?",
+      "answer": "Yes, but dictating in shorter sections is usually easier to manage and review."
+    }
+  ],
+  "whereToGetHelp": [
+    "[Insert confirmed technology support contact]",
+    "[Insert confirmed accessibility or assistive technology support contact]",
+    "[Insert student support link]"
+  ]
+}
