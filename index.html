@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Student Guide Formatter</title>
+  <meta name="description" content="A public-safe browser-based formatter for structured student guide JSON." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#preview-heading">Skip to guide preview</a>
+
+  <header class="site-header" aria-label="Page header">
+    <div class="site-header__inner">
+      <div>
+        <p class="eyebrow">Interactive Guide Formatter</p>
+        <h1>Student Guide Generator</h1>
+        <p class="header-copy">Paste guide JSON, generate a styled preview, then download HTML, save as PDF, or export an editable Word document.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="editor-panel" aria-labelledby="editor-heading">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">Step 1</p>
+          <h2 id="editor-heading">Paste guide JSON</h2>
+        </div>
+        <span class="badge">Browser-only tool</span>
+      </div>
+
+      <p class="helper-text">Paste structured JSON from your agent below. The content is processed in your browser and is not saved to GitHub unless you manually commit it.</p>
+
+      <label for="jsonInput" class="label">Guide JSON</label>
+      <textarea id="jsonInput" spellcheck="false" aria-describedby="jsonHelp"></textarea>
+      <p id="jsonHelp" class="helper-text">Use valid JSON only. Avoid private or confidential content if this page is hosted publicly.</p>
+
+      <div class="button-row" aria-label="Guide actions">
+        <button type="button" id="loadSampleBtn" class="button button-secondary">Load sample</button>
+        <button type="button" id="generateBtn" class="button">Generate guide</button>
+        <button type="button" id="downloadJsonBtn" class="button button-secondary">Download JSON</button>
+        <button type="button" id="downloadHtmlBtn" class="button button-secondary">Download HTML</button>
+        <button type="button" id="printBtn" class="button button-secondary">Print / Save PDF</button>
+        <button type="button" id="downloadDocxBtn" class="button button-secondary">Download DOCX</button>
+      </div>
+
+      <div id="status" class="notice" role="status" aria-live="polite">Ready. Load the sample or paste your JSON, then select <strong>Generate guide</strong>.</div>
+    </section>
+
+    <section class="preview-panel" aria-labelledby="preview-heading">
+      <div class="panel-heading preview-heading-actions">
+        <div>
+          <p class="eyebrow">Step 2</p>
+          <h2 id="preview-heading">Styled guide preview</h2>
+        </div>
+      </div>
+
+      <article id="guide" class="guide" aria-label="Formatted guide preview">
+        <section class="title-page" aria-labelledby="guide-title">
+          <p class="guide-label" id="guide-subtitle">Student Guide</p>
+          <h2 id="guide-title">Your guide preview will appear here</h2>
+          <p id="guide-purpose" class="purpose">Generate a guide to view the formatted output.</p>
+          <dl class="meta-grid" aria-label="Guide details">
+            <div>
+              <dt>Audience</dt>
+              <dd id="guide-audience">Students</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>Step-by-step guide</dd>
+            </div>
+          </dl>
+        </section>
+
+        <nav class="contents-card" aria-labelledby="contents-title">
+          <h2 id="contents-title">Contents</h2>
+          <ol id="contents-list"></ol>
+        </nav>
+
+        <div id="guide-sections"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Public-safe static tool. The formatter applies styling in the browser from pasted JSON.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
